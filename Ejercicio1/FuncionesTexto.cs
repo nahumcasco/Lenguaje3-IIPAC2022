@@ -21,12 +21,12 @@ namespace Ejercicio1
         {
             string cadena = CadenaTextBox.Text;
 
-            //if (cadena.Length == 0)
-            //{
-            //    MessageBox.Show("Debe ingresar una cadena");
-            //    CadenaTextBox.Focus();
-            //    return;
-            //}
+            if (cadena.Length == 0)
+            {
+                MessageBox.Show("Debe ingresar una cadena");
+                CadenaTextBox.Focus();
+                return;
+            }
 
             if (string.IsNullOrEmpty(cadena))
             {
