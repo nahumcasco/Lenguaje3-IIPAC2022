@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio1
+namespace Banco
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Ejercicio1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPerro());
+            Application.Run(new Form1());
         }
     }
 }
